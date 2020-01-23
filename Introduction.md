@@ -1,3 +1,8 @@
 # Introduction to exercises
 
-I will try to figure out how to put links to other markdown files from the github repo in here
+## Index
+
+* [Exercise 1](https://github.com/GenisGE/popgen/blob/master/Exercise%20in%20estimating%20nucleotide%20diversity.md)
+
+
+This could be the README.md
