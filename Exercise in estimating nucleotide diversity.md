@@ -33,7 +33,7 @@ Reprint from [http://www.unep.org/grasp/}(http://www.unep.org/grasp/) modified b
 
 *Q1*: Before we get started, why do you think we chose chromosome 22?
 
-
+>Chromosome 22 was chosen because it is one of the smallest somatic chromosomes. We would not be able to complete this exercise if we had chosen whole genomes or even one of the largest chromosomes.</span>
 
 
 
