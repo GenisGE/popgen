@@ -201,7 +201,6 @@ cat YRI.frq |grep -v NA > YRI_noNA.frq
 
 Now open **R**. Paste in the following commands to read in the frequency output from PLINK (again, try to understand the code, do not hesitate to ask an instructor, or Google, if in doubt):
 
-\# Read in each of the frequency files
 
 ```
 # Read in each of the frequency files
@@ -245,6 +244,7 @@ ceu <- cbind(ceu, pi=het(ceu$MAF)*(length(ceu$MAF)/(35191950)))
 ```
 
 Plotting the results in R
+
 ```
 # Making a barplot with the nucleotide diversity
 par(mfrow=c(1,1))
