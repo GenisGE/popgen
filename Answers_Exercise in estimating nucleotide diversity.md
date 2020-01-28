@@ -280,13 +280,23 @@ dev.off()
 
 **Q9:** What is the average heterozygosity for the 7 populations? (read from plot or type `mean(val)`)
 
+<img src="figures/hetschimp.png" alt="figures/hetschimp.png" width="664" height="413" />
+
 **Q10:** Give a reason why the two human populations differ in heterozygosity?
+
+> Differences in demographic  history. Europeans have gone through a population bottleneck, reducing their effective population size.
 
 **Q11:** Why does the combined chimpanzee population (“Pan\_troglodytes”) have a higher average heterozygosity than each of the subspecies?
 
+> The mutations in the four populations are not necessarily unique, meaning that if you pool population it would appear as though the heterozygosity is higher.
+
 **Q12** Will rare mutations more often be in heterozygous individuals or homozygous individuals?
 
+> The risk that a mutation occurs on the same site in the same time is basically non-existent. It will happen in heterozygotes. 
+
 **Q13:** From your knowledge and from the amount of average heterozygosity, what population would you expect to have the highest *N<sub>e</sub>*? And the lowest?
+
+> The central chimpanzee as this population has the highest effective population size based on heterozygosity. We would expect the verus chimpanzee population to have the lowest effective population size. Compared to the other chimpanzee population the verus population has been isolated for a longer time at a smaller census population size.
 
 ### Estimating the nucleotide diversity along the chromosome
 
@@ -363,7 +373,14 @@ evince nucleotide_diversity_in_4_subspecies
 
 **Q14:** Why is there a difference in pi along the chromosome?
 
+<img src="figures/slidingpi.png" alt="figures/slidingpi.png" width="664" height="413" />
+
+> Differences between coding and non-coding regions might reduce or increase the diversity depending on the constraint of selection.
+
 **Q15:** Why is the pattern different among the populations?
+
+> Populations may be adapted to different environments or have different population sizes and experienced different  levels of genetic drift.
+
 
 ### Estimating inbreeding coefficient pr. individual
 
@@ -397,10 +414,23 @@ F F inbreeding coefficient estimate
 
 **Q16:** Is there a sign of inbreeding in some of the humans?
 
+> No, all have an F value close to zero.
+
+
 **Q17:** Do some of the chimpanzees show signs of inbreeding?
 
+ > Verus: two inds with 0.11 and 0.062 F ;
+Ellioti: Five with an F of 0.062 or more ;
+Troglodytes: Three with an F of 0.062 or more ;
+Schwein:  Five with an F of 0.062 or more.
+
 **Q18:** If so, how related do they seem to be?
+
+> First cousin offspring has an F of around 0.0625, uncle-niece an F of 0.125 and offspring of brother sister around 0.25. Keep in mind that there is some variation around this number.
+
 
 Now take a look at the total sample of the combined set of chimpanzees (“Pan\_troglodytes.het”).
 
 **Q19:** What is going on here? Why are the inbreeding coefficients so high?
+
+> The Wahlund effect, where we see more homozygotes than what we expect from random mating, because we pool different populations into one.
